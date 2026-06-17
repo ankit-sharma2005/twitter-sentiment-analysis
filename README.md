@@ -5,6 +5,10 @@ A Machine Learning web application built using Streamlit that predicts whether a
 ## 📌 Project Overview
 
 This project uses the Sentiment140 dataset containing 1.6 million tweets to train a sentiment analysis model. The application allows users to analyze tweet sentiment in real-time and perform batch predictions using CSV files.
+## 🚀 Live Demo
+
+🔗 Streamlit App:
+https://twitter-sentiment-analysis-ankit.streamlit.app
 
 ## 🚀 Features
 
