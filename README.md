@@ -54,7 +54,7 @@ Twitter-sentiment-app/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/twitter-sentiment-analysis.git
+git clone https://github.com/ankit-sharma2005/twitter-sentiment-analysis.git
 ```
 
 Move into project folder:
@@ -74,6 +74,25 @@ Run the application:
 ```bash
 streamlit run app.py
 ```
+
+## 📥 Batch CSV Input
+
+The batch predictor accepts any CSV that contains a tweet text column. Upload
+the file, select the text column in the app, then click **Predict CSV**.
+
+Minimal input:
+
+```csv
+tweet
+"I absolutely love this product, it works perfectly!"
+"This is the worst service I have ever used."
+```
+
+For fresh X/Twitter research, an OpenClaw workflow can collect public posts with
+[TweetClaw](https://github.com/Xquik-dev/tweetclaw), review the results, and
+save only the text you want to analyze into the CSV column above. Keep account
+access, paid reads, private data, and any write actions inside TweetClaw's
+OpenClaw approval flow before importing reviewed text into this app.
 
 ## 🎯 Sample Predictions
 
